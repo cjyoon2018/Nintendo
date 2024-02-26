@@ -1,0 +1,77 @@
+/* Basic Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #EAE7DC; /* Beige background */
+    color: #3E505B; /* Dark Slate for text */
+    line-height: 1.6;
+}
+
+header {
+    background-color: #D8A7B1; /* Soft Pink */
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer {
+    background-color: #D8A7B1; /* Soft Pink */
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+}
+
+main {
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    font-family: 'Roboto', sans-serif;
+    color: #9E768F; /* Muted Purple for headings */
+    margin-bottom: 0.5em;
+}
+
+section {
+    background-color: #ffffff; /* White for content sections */
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+iframe {
+    width: 100%; /* Ensures iframe takes the full width of its container */
+    border: none; /* Removes default border */
+    height: auto; /* Adjusts height automatically */
+}
+
+p {
+    margin-bottom: 1em;
+}
+
+a, .button {
+    background-color: #F2D1B3; /* Peach for buttons/links */
+    color: #3E505B; /* Dark Slate for button text */
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+a:hover, .button:hover {
+    background-color: #9E768F; /* Muted Purple on hover */
+    color: #ffffff;
+}
+
+/* Responsive Design */
+@media (min-width: 600px) {
+    iframe {
+        height: 400px; /* Larger height for wider screens */
+    }
+}
